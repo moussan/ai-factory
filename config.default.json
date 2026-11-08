@@ -1,0 +1,19 @@
+{
+  "port": 8787,
+  "tenantId": "",
+  "maxTableRows": 5000,
+  "graph": {
+    "clientId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+    "scopes": "openid profile offline_access Organization.Read.All Domain.Read.All User.Read.All Group.Read.All Directory.Read.All Application.Read.All Policy.Read.All RoleManagement.Read.Directory AuditLog.Read.All Reports.Read.All DeviceManagementManagedDevices.Read.All IdentityRiskyUser.Read.All SecurityEvents.Read.All ServiceHealth.Read.All UserAuthenticationMethod.Read.All"
+  },
+  "azure": {
+    "enabled": false,
+    "clientId": "1950a258-227b-4e31-a9cf-717495945fc2",
+    "scopes": "openid profile offline_access https://management.azure.com/user_impersonation"
+  },
+  "update": {
+    "repo": "moussan/ai-factory",
+    "branch": "main",
+    "token": ""
+  }
+}

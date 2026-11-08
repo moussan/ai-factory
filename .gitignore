@@ -1,0 +1,6 @@
+config.json
+version.json
+data/
+collectors/custom/*
+!collectors/custom/.gitkeep
+node_modules/
